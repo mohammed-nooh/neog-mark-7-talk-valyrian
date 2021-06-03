@@ -4,10 +4,10 @@ var textInput=document.querySelector("#text-area");
 
 var outputDiv=document.querySelector("#output-box")
 
-var url="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var url="https://api.funtranslations.com/translate/valyrian.json";
 
 function errorHandler(error){
-    alert("something is wrong please try again after some time or contact me ",error)
+    alert("something is wrong please try again after some time or contact me ")
 }
 
 function constructUrl(text){
